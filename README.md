@@ -1,6 +1,9 @@
 East Asian Width
 ================
 
+[![Build Status](https://travis-ci.org/vangie/east-asian-width.svg?branch=master)](https://travis-ci.org/vangie/east-asian-width)
+[![Coverage Status](https://img.shields.io/coveralls/vangie/east-asian-width.svg)](https://coveralls.io/r/vangie/east-asian-width)
+
 A javascript implementation of full-width and half-width unicode character detector.
 
 ## Installation
