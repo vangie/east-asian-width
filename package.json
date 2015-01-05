@@ -1,17 +1,15 @@
 {
   "name": "east-asian-width",
   "version": "0.1.0",
-  "description": "Detect whether a unicode character is fullwidth or halfwidth.",
+  "description": "A javascript implementation of full-width and half-width unicode character detector.",
   "main": "index.js",
   "scripts": {
     "test": "make test",
     "test_debug": "make test_debug"
   },
   "keywords": [
-    "node",
     "fullwidth",
-    "halfwidth",
-    "javascript"
+    "halfwidth"
   ],
   "author": "Vangie Du",
   "licenses": [
@@ -21,8 +19,13 @@
     }
   ],
   "devDependencies": {
+    "browserify": "^8.0.3",
     "chai": "^1.10.0",
-    "mocha": "^2.1.0"
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.2.1",
+    "load-grunt-tasks": "^2.0.0",
+    "mocha": "^2.1.0",
+    "time-grunt": "^1.0.0"
   },
   "dependencies": {
     "string.prototype.codepointat": "^0.2.0"
