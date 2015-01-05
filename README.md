@@ -3,18 +3,19 @@ East Asian Width
 
 [![Build Status](https://travis-ci.org/vangie/east-asian-width.svg?branch=master)](https://travis-ci.org/vangie/east-asian-width)
 [![Coverage Status](https://img.shields.io/coveralls/vangie/east-asian-width.svg)](https://coveralls.io/r/vangie/east-asian-width)
+[![devDependency Status](https://david-dm.org/vangie/east-asian-width.svg)](https://david-dm.org/vangie/east-asian-width)
 
 A javascript implementation of full-width and half-width unicode character detector.
 
 ## Installation
 
-#### [npm](https://www.npmjs.org/) [![NPM version](https://badge.fury.io/js/east-asian-width.svg)](https://www.npmjs.org/package/east-asian-width)
+[npm](https://www.npmjs.org/) [![NPM version](https://badge.fury.io/js/east-asian-width.svg)](https://www.npmjs.org/package/east-asian-width)
 
 ```sh
 npm install east-asian-width
 ```
 
-#### [bower](http://bower.io/) [![Bower version](https://badge.fury.io/bo/east-asian-width.svg)](https://github.com/vangie/east-asian-width/releases)
+[bower](http://bower.io/) [![Bower version](https://badge.fury.io/bo/east-asian-width.svg)](https://github.com/vangie/east-asian-width/releases)
 
 ```sh
 bower install east-asian-width
