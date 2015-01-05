@@ -1,4 +1,4 @@
-var libpath = process.env['LIB_COV'] ? '../lib-cov' : '../lib';
+var libpath = process.env['JS_COV'] ? '../lib-cov' : '../lib';
 var should = require('chai').should(),
     east_asian_width = require(libpath + '/index'),
     char_width = east_asian_width.char_width,

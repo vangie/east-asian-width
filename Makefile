@@ -4,9 +4,11 @@ test:
 test_debug:
 	@./node_modules/.bin/mocha --debug-brk
 
+lib-cov:
+	@./node_modules/.bin/jscoverage lib $@
+
 coverage:
-	./node_modules/.bin/jscoverage --no-highlight lib lib-cov
-	LIB_COV=1 ./node_modules/.bin/mocha -R html-cov > coverage.html
+	JS_COV=1 ./node_modules/.bin/mocha -R html-cov > coverage.html && open coverage.html
 	rm -rf lib-cov
 
 .PHONY: test
