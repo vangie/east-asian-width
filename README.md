@@ -5,21 +5,32 @@ A javascript implementation of full-width and half-width unicode character detec
 
 ## Installation
 
-    npm install east-asian-width
+#### [npm](https://www.npmjs.org/) [![NPM version](https://badge.fury.io/js/east-asian-width.svg)](https://www.npmjs.org/package/east-asian-width)
 
+```sh
+npm install east-asian-width
+```
+
+#### [Bower](http://bower.io/) [![Bower version](https://badge.fury.io/bo/east-asian-width.svg)](https://github.com/vangie/east-asian-width/releases)
+
+```sh
+bower install east-asian-width
+```
 ## Usage
 
-    var should = require('chai').should(),
-        east_asian_width = require('east-asian-width'),
-        char_width = east_asian_width.char_width,
-        str_width = east_asian_width.str_width,
-        cjk_char_width = east_asian_width.cjk_char_width,
-        cjk_str_width = east_asian_width.cjk_str_width;
+```javascript
+var should = require('chai').should(),
+    east_asian_width = require('east-asian-width'),
+    char_width = east_asian_width.char_width,
+    str_width = east_asian_width.str_width,
+    cjk_char_width = east_asian_width.cjk_char_width,
+    cjk_str_width = east_asian_width.cjk_str_width;
 
-    char_width('杜'.codePointAt(0)).should.equal(2);
-    str_width('Coding is my life').should.equal(17);
-    cjk_char_width('Æ'.codePointAt(0)).should.equal(2);
-    cjk_str_width('Æ��').should.equal(6);
+char_width('杜'.codePointAt(0)).should.equal(2);
+str_width('Coding is my life').should.equal(17);
+cjk_char_width('Æ'.codePointAt(0)).should.equal(2);
+cjk_str_width('Æ��').should.equal(6);
+```
 
 ## Tests
 
@@ -40,7 +51,7 @@ then start node-inspector on another console.
 
     node-inspector
 
-then visit `http://127.0.0.1:8080/debug?port=5858` on browser. 
+then visit `http://127.0.0.1:8080/debug?port=5858` on browser.
 
 ## Release History
 

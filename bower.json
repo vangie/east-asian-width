@@ -1,0 +1,25 @@
+{
+  "name": "east-asian-width",
+  "main": "dist/index.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/vangie/east-asian-width",
+  "authors": [
+    "Vangie Du <duwan@live.com>"
+  ],
+  "description": "A javascript implementation of full-width and half-width unicode character detector.",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "fullwidth",
+    "halfwidth"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
