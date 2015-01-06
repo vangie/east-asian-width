@@ -60,6 +60,7 @@ then visit `http://127.0.0.1:8080/debug?port=5858` on browser.
 ## Release History
 
 * 0.1.0 Initial release
+* 0.1.1 Integrate with Travis CI, Coveralls
 
 ## Author
 > ![图片](https://dn-coding-net-production-static.qbox.me/7d422c9e-c2f9-4401-a846-8b4393cbd7b4.jpg?imageMogr2/auto-orient/format/jpeg/crop/!662x662a1a0/thumbnail/80)
